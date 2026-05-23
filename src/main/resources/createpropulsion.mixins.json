@@ -6,6 +6,7 @@
     "refmap": "createpropulsion.refmap.json",
     "plugin": "dev.propulsionteam.propulsionsimulated.mixin.plugin.PropulsionMixinPlugin",
     "mixins": [
+        "AirFlowObstructionMixin",
         "BasinBlockEntityMixin",
         "FluidShellProjectileMixin",
         "SchematicPlacePacketMixin"
